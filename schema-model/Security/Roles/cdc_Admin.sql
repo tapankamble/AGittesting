@@ -1,0 +1,3 @@
+CREATE ROLE [cdc_Admin]
+AUTHORIZATION [cdc]
+GO

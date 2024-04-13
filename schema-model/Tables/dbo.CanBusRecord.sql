@@ -1,0 +1,32 @@
+CREATE TABLE [dbo].[CanBusRecord]
+(
+[AssetId] [int] NOT NULL,
+[EventTime] [int] NOT NULL,
+[InstanceNumber] [smallint] NOT NULL,
+[VehicleOdometer] [int] NOT NULL,
+[TotalFuelUsed] [int] NOT NULL,
+[FuelLevel] [smallint] NOT NULL,
+[DurationEngineOn] [int] NOT NULL,
+[DurationDriving] [int] NOT NULL,
+[DurationCruiseActive] [int] NOT NULL,
+[IdlingTime] [int] NOT NULL,
+[FuelUsedDuringIdle] [int] NOT NULL,
+[DurationOfPTO] [int] NOT NULL,
+[FuelUsedDuringPTO] [int] NOT NULL,
+[NumberOfBrakeApps] [int] NOT NULL,
+[NumberOfClutchPresses] [int] NOT NULL,
+[ActualEngineSpeed] [int] NOT NULL,
+[AcceleratorPedalPosition] [smallint] NOT NULL,
+[EngineTemperature] [tinyint] NOT NULL,
+[FuelTankCapacity] [int] NULL,
+[FuelSensorADC1] [smallint] NULL,
+[FuelSensorADC2] [smallint] NULL,
+[FuelSensorADC3] [smallint] NULL,
+[FuelSensorADC4] [smallint] NULL,
+[PTOStatus] [tinyint] NULL,
+[VehicleSpeed] [int] NULL,
+[CruiseControl] [bit] NULL,
+[ServiceDistance] [int] NULL,
+[AxleWeight] [int] NULL
+)
+GO
